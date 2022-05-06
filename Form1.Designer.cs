@@ -36,6 +36,13 @@
             this.btnDock = new System.Windows.Forms.Button();
             this.btnMap = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
+            this.logout1 = new Quantum_World.Logout();
+            this.map1 = new Quantum_World.Map();
+            this.dock1 = new Quantum_World.Dock();
+            this.overview1 = new Quantum_World.Overview();
+            this.buildings1 = new Quantum_World.Buildings();
+            this.research1 = new Quantum_World.Research();
+            this.resources1 = new Quantum_World.Resources();
             this.SuspendLayout();
             // 
             // btnOverview
@@ -116,11 +123,67 @@
             this.btnLogout.UseVisualStyleBackColor = true;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
+            // logout1
+            // 
+            this.logout1.Location = new System.Drawing.Point(135, 19);
+            this.logout1.Name = "logout1";
+            this.logout1.Size = new System.Drawing.Size(653, 419);
+            this.logout1.TabIndex = 10;
+            // 
+            // map1
+            // 
+            this.map1.Location = new System.Drawing.Point(126, 12);
+            this.map1.Name = "map1";
+            this.map1.Size = new System.Drawing.Size(662, 385);
+            this.map1.TabIndex = 9;
+            // 
+            // dock1
+            // 
+            this.dock1.Location = new System.Drawing.Point(213, 12);
+            this.dock1.Name = "dock1";
+            this.dock1.Size = new System.Drawing.Size(445, 321);
+            this.dock1.TabIndex = 8;
+            // 
+            // overview1
+            // 
+            this.overview1.Location = new System.Drawing.Point(243, 66);
+            this.overview1.Name = "overview1";
+            this.overview1.Size = new System.Drawing.Size(434, 325);
+            this.overview1.TabIndex = 11;
+            // 
+            // buildings1
+            // 
+            this.buildings1.Location = new System.Drawing.Point(213, 33);
+            this.buildings1.Name = "buildings1";
+            this.buildings1.Size = new System.Drawing.Size(502, 364);
+            this.buildings1.TabIndex = 12;
+            // 
+            // research1
+            // 
+            this.research1.Location = new System.Drawing.Point(176, 33);
+            this.research1.Name = "research1";
+            this.research1.Size = new System.Drawing.Size(575, 391);
+            this.research1.TabIndex = 13;
+            // 
+            // resources1
+            // 
+            this.resources1.Location = new System.Drawing.Point(176, 28);
+            this.resources1.Name = "resources1";
+            this.resources1.Size = new System.Drawing.Size(567, 410);
+            this.resources1.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.resources1);
+            this.Controls.Add(this.research1);
+            this.Controls.Add(this.buildings1);
+            this.Controls.Add(this.overview1);
+            this.Controls.Add(this.logout1);
+            this.Controls.Add(this.map1);
+            this.Controls.Add(this.dock1);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnMap);
             this.Controls.Add(this.btnDock);
@@ -146,6 +209,13 @@
         private System.Windows.Forms.Button btnDock;
         private System.Windows.Forms.Button btnMap;
         private System.Windows.Forms.Button btnLogout;
+        private Dock dock1;
+        private Map map1;
+        private Logout logout1;
+        private Overview overview1;
+        private Buildings buildings1;
+        private Research research1;
+        private Resources resources1;
     }
 }
 

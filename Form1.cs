@@ -15,36 +15,64 @@ namespace Quantum_World
         public Form1()
         {
             InitializeComponent();
+            HideAll();
+            overview1.Show();
+            overview1.BringToFront();
         }
 
         private void btnOverview_Click(object sender, EventArgs e)
         {
-            lblHelloWorld.Text = "You're seeing Overview";
+            HideAll();
+            overview1.Show();
+            overview1.BringToFront();
         }
 
         private void btnBuildings_Click(object sender, EventArgs e)
         {
-            lblHelloWorld.Text = "You're seeing Buildings";
+            HideAll();
+            buildings1.Show();
+            buildings1.BringToFront();
         }
         private void btnResources_Click(object sender, EventArgs e)
         {
-            lblHelloWorld.Text = "You're seeing Resources";
+            HideAll();
+            resources1.Show();
+            resources1.BringToFront();
         }
         private void btnResearch_Click(object sender, EventArgs e)
         {
-            lblHelloWorld.Text = "You're seeing Research";
+            HideAll();
+            research1.Show();
+            research1.BringToFront();
         }
         private void btnDock_Click(object sender, EventArgs e)
         {
-            lblHelloWorld.Text = "You're seeing Dock";
+            HideAll();
+            dock1.Show();
+            dock1.BringToFront();
         }
         private void btnMap_Click(object sender, EventArgs e)
         {
-            lblHelloWorld.Text = "You're seeing Map";
+            HideAll();
+            map1.Show();
+            map1.BringToFront();
         }
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            lblHelloWorld.Text = "You're logged out";
+            HideAll();
+            logout1.Show();
+            logout1.BringToFront();
+        }
+
+        private void HideAll()
+        {
+            overview1.Hide();
+            buildings1.Hide();
+            resources1.Hide();
+            research1.Hide();
+            dock1.Hide();
+            map1.Hide();
+            logout1.Hide();
         }
     }
 }
