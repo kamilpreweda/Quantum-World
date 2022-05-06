@@ -17,9 +17,34 @@ namespace Quantum_World
             InitializeComponent();
         }
 
-        private void btnClickThis_Click(object sender, EventArgs e)
+        private void btnOverview_Click(object sender, EventArgs e)
         {
-            lblHelloWorld.Text = "Hello World22";
+            lblHelloWorld.Text = "You're seeing Overview";
+        }
+
+        private void btnBuildings_Click(object sender, EventArgs e)
+        {
+            lblHelloWorld.Text = "You're seeing Buildings";
+        }
+        private void btnResources_Click(object sender, EventArgs e)
+        {
+            lblHelloWorld.Text = "You're seeing Resources";
+        }
+        private void btnResearch_Click(object sender, EventArgs e)
+        {
+            lblHelloWorld.Text = "You're seeing Research";
+        }
+        private void btnDock_Click(object sender, EventArgs e)
+        {
+            lblHelloWorld.Text = "You're seeing Dock";
+        }
+        private void btnMap_Click(object sender, EventArgs e)
+        {
+            lblHelloWorld.Text = "You're seeing Map";
+        }
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            lblHelloWorld.Text = "You're logged out";
         }
     }
 }
