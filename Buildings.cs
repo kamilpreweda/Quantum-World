@@ -15,6 +15,28 @@ namespace Quantum_World
         public Buildings()
         {
             InitializeComponent();
+
+
         }
+       
+        private void BtnBuilding1Upgrade_Click(object sender, EventArgs e)
+        {
+            btnBuilding1Upgrade.Text = "Building 1 upgraded";
+        }
+        private void BtnBuilding2Upgrade_Click(object sender, EventArgs e)
+        {
+            btnBuilding2Upgrade.Text = "Building 2 upgraded";
+        }
+        private void BtnBuilding3Upgrade_Click(object sender, EventArgs e)
+        {
+            btnBuilding3Upgrade.Text = "Building 3 upgraded";
+        }
+        private void BtnBuilding4Upgrade_Click(object sender, EventArgs e)
+        {
+            btnBuilding4Upgrade.Text = "Building 4 upgraded";
+        }
+
+
+
     }
 }

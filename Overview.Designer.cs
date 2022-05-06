@@ -29,23 +29,23 @@ namespace Quantum_World
         /// </summary>
         private void InitializeComponent()
         {
-            this.lvlOverview = new System.Windows.Forms.Label();
+            this.lblOverview = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // lvlOverview
+            // lblOverview
             // 
-            this.lvlOverview.AutoSize = true;
-            this.lvlOverview.Location = new System.Drawing.Point(157, 106);
-            this.lvlOverview.Name = "lvlOverview";
-            this.lvlOverview.Size = new System.Drawing.Size(101, 13);
-            this.lvlOverview.TabIndex = 0;
-            this.lvlOverview.Text = "You are in overview";
+            this.lblOverview.AutoSize = true;
+            this.lblOverview.Location = new System.Drawing.Point(157, 106);
+            this.lblOverview.Name = "lblOverview";
+            this.lblOverview.Size = new System.Drawing.Size(101, 13);
+            this.lblOverview.TabIndex = 0;
+            this.lblOverview.Text = "You are in overview";
             // 
             // Overview
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.lvlOverview);
+            this.Controls.Add(this.lblOverview);
             this.Name = "Overview";
             this.Size = new System.Drawing.Size(434, 325);
             this.ResumeLayout(false);
@@ -55,6 +55,6 @@ namespace Quantum_World
 
         #endregion
 
-        private System.Windows.Forms.Label lvlOverview;
+        private System.Windows.Forms.Label lblOverview;
     }
 }
