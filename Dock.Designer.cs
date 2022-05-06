@@ -43,7 +43,7 @@ namespace Quantum_World
             // lblDock
             // 
             this.lblDock.AutoSize = true;
-            this.lblDock.Location = new System.Drawing.Point(166, 146);
+            this.lblDock.Location = new System.Drawing.Point(163, 161);
             this.lblDock.Name = "lblDock";
             this.lblDock.Size = new System.Drawing.Size(89, 13);
             this.lblDock.TabIndex = 0;
@@ -53,7 +53,7 @@ namespace Quantum_World
             // lblShip1
             // 
             this.lblShip1.AutoSize = true;
-            this.lblShip1.Location = new System.Drawing.Point(97, 50);
+            this.lblShip1.Location = new System.Drawing.Point(94, 65);
             this.lblShip1.Name = "lblShip1";
             this.lblShip1.Size = new System.Drawing.Size(44, 13);
             this.lblShip1.TabIndex = 1;
@@ -62,7 +62,7 @@ namespace Quantum_World
             // lblShip3
             // 
             this.lblShip3.AutoSize = true;
-            this.lblShip3.Location = new System.Drawing.Point(100, 196);
+            this.lblShip3.Location = new System.Drawing.Point(97, 211);
             this.lblShip3.Name = "lblShip3";
             this.lblShip3.Size = new System.Drawing.Size(44, 13);
             this.lblShip3.TabIndex = 2;
@@ -71,7 +71,7 @@ namespace Quantum_World
             // lblShip2
             // 
             this.lblShip2.AutoSize = true;
-            this.lblShip2.Location = new System.Drawing.Point(311, 50);
+            this.lblShip2.Location = new System.Drawing.Point(308, 65);
             this.lblShip2.Name = "lblShip2";
             this.lblShip2.Size = new System.Drawing.Size(44, 13);
             this.lblShip2.TabIndex = 3;
@@ -80,7 +80,7 @@ namespace Quantum_World
             // lblShip4
             // 
             this.lblShip4.AutoSize = true;
-            this.lblShip4.Location = new System.Drawing.Point(310, 195);
+            this.lblShip4.Location = new System.Drawing.Point(307, 210);
             this.lblShip4.Name = "lblShip4";
             this.lblShip4.Size = new System.Drawing.Size(44, 13);
             this.lblShip4.TabIndex = 4;
@@ -88,7 +88,7 @@ namespace Quantum_World
             // 
             // btnShip1
             // 
-            this.btnShip1.Location = new System.Drawing.Point(66, 66);
+            this.btnShip1.Location = new System.Drawing.Point(63, 81);
             this.btnShip1.Name = "btnShip1";
             this.btnShip1.Size = new System.Drawing.Size(75, 55);
             this.btnShip1.TabIndex = 5;
@@ -98,7 +98,7 @@ namespace Quantum_World
             // 
             // btnShip2
             // 
-            this.btnShip2.Location = new System.Drawing.Point(280, 66);
+            this.btnShip2.Location = new System.Drawing.Point(277, 81);
             this.btnShip2.Name = "btnShip2";
             this.btnShip2.Size = new System.Drawing.Size(75, 55);
             this.btnShip2.TabIndex = 6;
@@ -108,7 +108,7 @@ namespace Quantum_World
             // 
             // btnShip3
             // 
-            this.btnShip3.Location = new System.Drawing.Point(66, 212);
+            this.btnShip3.Location = new System.Drawing.Point(63, 227);
             this.btnShip3.Name = "btnShip3";
             this.btnShip3.Size = new System.Drawing.Size(75, 54);
             this.btnShip3.TabIndex = 7;
@@ -118,7 +118,7 @@ namespace Quantum_World
             // 
             // btnShip4
             // 
-            this.btnShip4.Location = new System.Drawing.Point(280, 211);
+            this.btnShip4.Location = new System.Drawing.Point(277, 226);
             this.btnShip4.Name = "btnShip4";
             this.btnShip4.Size = new System.Drawing.Size(75, 55);
             this.btnShip4.TabIndex = 8;
@@ -140,7 +140,7 @@ namespace Quantum_World
             this.Controls.Add(this.lblShip1);
             this.Controls.Add(this.lblDock);
             this.Name = "Dock";
-            this.Size = new System.Drawing.Size(445, 321);
+            this.Size = new System.Drawing.Size(420, 347);
             this.ResumeLayout(false);
             this.PerformLayout();
 

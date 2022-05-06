@@ -43,6 +43,10 @@
             this.buildings1 = new Quantum_World.Buildings();
             this.research1 = new Quantum_World.Research();
             this.resources1 = new Quantum_World.Resources();
+            this.lblCarbonFiber = new System.Windows.Forms.Label();
+            this.lblQuantumGlass = new System.Windows.Forms.Label();
+            this.lblHiggsBoson = new System.Windows.Forms.Label();
+            this.lblSolarEnergy = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnOverview
@@ -167,16 +171,56 @@
             // 
             // resources1
             // 
-            this.resources1.Location = new System.Drawing.Point(176, 28);
+            this.resources1.Location = new System.Drawing.Point(203, 53);
             this.resources1.Name = "resources1";
-            this.resources1.Size = new System.Drawing.Size(567, 410);
+            this.resources1.Size = new System.Drawing.Size(540, 385);
             this.resources1.TabIndex = 14;
+            // 
+            // lblCarbonFiber
+            // 
+            this.lblCarbonFiber.AutoSize = true;
+            this.lblCarbonFiber.Location = new System.Drawing.Point(176, 14);
+            this.lblCarbonFiber.Name = "lblCarbonFiber";
+            this.lblCarbonFiber.Size = new System.Drawing.Size(73, 13);
+            this.lblCarbonFiber.TabIndex = 15;
+            this.lblCarbonFiber.Text = "Carbon Fiber: ";
+            // 
+            // lblQuantumGlass
+            // 
+            this.lblQuantumGlass.AutoSize = true;
+            this.lblQuantumGlass.Location = new System.Drawing.Point(315, 14);
+            this.lblQuantumGlass.Name = "lblQuantumGlass";
+            this.lblQuantumGlass.Size = new System.Drawing.Size(85, 13);
+            this.lblQuantumGlass.TabIndex = 16;
+            this.lblQuantumGlass.Text = "Quantum Glass: ";
+            // 
+            // lblHiggsBoson
+            // 
+            this.lblHiggsBoson.AutoSize = true;
+            this.lblHiggsBoson.Location = new System.Drawing.Point(482, 14);
+            this.lblHiggsBoson.Name = "lblHiggsBoson";
+            this.lblHiggsBoson.Size = new System.Drawing.Size(73, 13);
+            this.lblHiggsBoson.TabIndex = 17;
+            this.lblHiggsBoson.Text = "Higgs Boson: ";
+            // 
+            // lblSolarEnergy
+            // 
+            this.lblSolarEnergy.AutoSize = true;
+            this.lblSolarEnergy.Location = new System.Drawing.Point(623, 14);
+            this.lblSolarEnergy.Name = "lblSolarEnergy";
+            this.lblSolarEnergy.Size = new System.Drawing.Size(78, 13);
+            this.lblSolarEnergy.TabIndex = 18;
+            this.lblSolarEnergy.Text = "Solar Energy: /";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblSolarEnergy);
+            this.Controls.Add(this.lblHiggsBoson);
+            this.Controls.Add(this.lblQuantumGlass);
+            this.Controls.Add(this.lblCarbonFiber);
             this.Controls.Add(this.resources1);
             this.Controls.Add(this.research1);
             this.Controls.Add(this.buildings1);
@@ -216,6 +260,10 @@
         private Buildings buildings1;
         private Research research1;
         private Resources resources1;
+        private System.Windows.Forms.Label lblCarbonFiber;
+        private System.Windows.Forms.Label lblQuantumGlass;
+        private System.Windows.Forms.Label lblHiggsBoson;
+        private System.Windows.Forms.Label lblSolarEnergy;
     }
 }
 
