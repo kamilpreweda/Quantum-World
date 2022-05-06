@@ -51,16 +51,17 @@ namespace Quantum_World
             // lblResearch
             // 
             this.lblResearch.AutoSize = true;
-            this.lblResearch.Location = new System.Drawing.Point(199, 185);
+            this.lblResearch.Location = new System.Drawing.Point(228, 176);
             this.lblResearch.Name = "lblResearch";
             this.lblResearch.Size = new System.Drawing.Size(99, 13);
             this.lblResearch.TabIndex = 0;
             this.lblResearch.Text = "You are in research";
+            this.lblResearch.Click += new System.EventHandler(this.lblResearch_Click);
             // 
             // lblResearch1
             // 
             this.lblResearch1.AutoSize = true;
-            this.lblResearch1.Location = new System.Drawing.Point(90, 98);
+            this.lblResearch1.Location = new System.Drawing.Point(88, 79);
             this.lblResearch1.Name = "lblResearch1";
             this.lblResearch1.Size = new System.Drawing.Size(69, 13);
             this.lblResearch1.TabIndex = 1;
@@ -69,7 +70,7 @@ namespace Quantum_World
             // lblResearch2
             // 
             this.lblResearch2.AutoSize = true;
-            this.lblResearch2.Location = new System.Drawing.Point(202, 97);
+            this.lblResearch2.Location = new System.Drawing.Point(200, 78);
             this.lblResearch2.Name = "lblResearch2";
             this.lblResearch2.Size = new System.Drawing.Size(69, 13);
             this.lblResearch2.TabIndex = 2;
@@ -78,7 +79,7 @@ namespace Quantum_World
             // lblResearch3
             // 
             this.lblResearch3.AutoSize = true;
-            this.lblResearch3.Location = new System.Drawing.Point(300, 98);
+            this.lblResearch3.Location = new System.Drawing.Point(298, 79);
             this.lblResearch3.Name = "lblResearch3";
             this.lblResearch3.Size = new System.Drawing.Size(69, 13);
             this.lblResearch3.TabIndex = 3;
@@ -87,7 +88,7 @@ namespace Quantum_World
             // lblResearch4
             // 
             this.lblResearch4.AutoSize = true;
-            this.lblResearch4.Location = new System.Drawing.Point(412, 98);
+            this.lblResearch4.Location = new System.Drawing.Point(410, 79);
             this.lblResearch4.Name = "lblResearch4";
             this.lblResearch4.Size = new System.Drawing.Size(69, 13);
             this.lblResearch4.TabIndex = 4;
@@ -96,7 +97,7 @@ namespace Quantum_World
             // lblResearch5
             // 
             this.lblResearch5.AutoSize = true;
-            this.lblResearch5.Location = new System.Drawing.Point(89, 250);
+            this.lblResearch5.Location = new System.Drawing.Point(87, 231);
             this.lblResearch5.Name = "lblResearch5";
             this.lblResearch5.Size = new System.Drawing.Size(69, 13);
             this.lblResearch5.TabIndex = 5;
@@ -105,7 +106,7 @@ namespace Quantum_World
             // lblResearch6
             // 
             this.lblResearch6.AutoSize = true;
-            this.lblResearch6.Location = new System.Drawing.Point(201, 250);
+            this.lblResearch6.Location = new System.Drawing.Point(199, 231);
             this.lblResearch6.Name = "lblResearch6";
             this.lblResearch6.Size = new System.Drawing.Size(69, 13);
             this.lblResearch6.TabIndex = 6;
@@ -114,7 +115,7 @@ namespace Quantum_World
             // lblResearch7
             // 
             this.lblResearch7.AutoSize = true;
-            this.lblResearch7.Location = new System.Drawing.Point(299, 249);
+            this.lblResearch7.Location = new System.Drawing.Point(297, 230);
             this.lblResearch7.Name = "lblResearch7";
             this.lblResearch7.Size = new System.Drawing.Size(69, 13);
             this.lblResearch7.TabIndex = 7;
@@ -123,7 +124,7 @@ namespace Quantum_World
             // lblResearch8
             // 
             this.lblResearch8.AutoSize = true;
-            this.lblResearch8.Location = new System.Drawing.Point(411, 249);
+            this.lblResearch8.Location = new System.Drawing.Point(409, 230);
             this.lblResearch8.Name = "lblResearch8";
             this.lblResearch8.Size = new System.Drawing.Size(69, 13);
             this.lblResearch8.TabIndex = 8;
@@ -131,7 +132,7 @@ namespace Quantum_World
             // 
             // btnResearch1Upgrade
             // 
-            this.btnResearch1Upgrade.Location = new System.Drawing.Point(83, 114);
+            this.btnResearch1Upgrade.Location = new System.Drawing.Point(81, 95);
             this.btnResearch1Upgrade.Name = "btnResearch1Upgrade";
             this.btnResearch1Upgrade.Size = new System.Drawing.Size(75, 48);
             this.btnResearch1Upgrade.TabIndex = 9;
@@ -141,7 +142,7 @@ namespace Quantum_World
             // 
             // btnResearch2Upgrade
             // 
-            this.btnResearch2Upgrade.Location = new System.Drawing.Point(195, 113);
+            this.btnResearch2Upgrade.Location = new System.Drawing.Point(193, 94);
             this.btnResearch2Upgrade.Name = "btnResearch2Upgrade";
             this.btnResearch2Upgrade.Size = new System.Drawing.Size(75, 49);
             this.btnResearch2Upgrade.TabIndex = 10;
@@ -151,7 +152,7 @@ namespace Quantum_World
             // 
             // btnResearch3Upgrade
             // 
-            this.btnResearch3Upgrade.Location = new System.Drawing.Point(294, 114);
+            this.btnResearch3Upgrade.Location = new System.Drawing.Point(292, 95);
             this.btnResearch3Upgrade.Name = "btnResearch3Upgrade";
             this.btnResearch3Upgrade.Size = new System.Drawing.Size(75, 48);
             this.btnResearch3Upgrade.TabIndex = 11;
@@ -161,7 +162,7 @@ namespace Quantum_World
             // 
             // btnResearch4Upgrade
             // 
-            this.btnResearch4Upgrade.Location = new System.Drawing.Point(405, 114);
+            this.btnResearch4Upgrade.Location = new System.Drawing.Point(403, 95);
             this.btnResearch4Upgrade.Name = "btnResearch4Upgrade";
             this.btnResearch4Upgrade.Size = new System.Drawing.Size(75, 48);
             this.btnResearch4Upgrade.TabIndex = 12;
@@ -171,7 +172,7 @@ namespace Quantum_World
             // 
             // btnResearch5Upgrade
             // 
-            this.btnResearch5Upgrade.Location = new System.Drawing.Point(83, 266);
+            this.btnResearch5Upgrade.Location = new System.Drawing.Point(81, 247);
             this.btnResearch5Upgrade.Name = "btnResearch5Upgrade";
             this.btnResearch5Upgrade.Size = new System.Drawing.Size(75, 49);
             this.btnResearch5Upgrade.TabIndex = 13;
@@ -181,7 +182,7 @@ namespace Quantum_World
             // 
             // btnResearch6Upgrade
             // 
-            this.btnResearch6Upgrade.Location = new System.Drawing.Point(195, 266);
+            this.btnResearch6Upgrade.Location = new System.Drawing.Point(193, 247);
             this.btnResearch6Upgrade.Name = "btnResearch6Upgrade";
             this.btnResearch6Upgrade.Size = new System.Drawing.Size(75, 49);
             this.btnResearch6Upgrade.TabIndex = 14;
@@ -191,7 +192,7 @@ namespace Quantum_World
             // 
             // btnResearch7Upgrade
             // 
-            this.btnResearch7Upgrade.Location = new System.Drawing.Point(294, 266);
+            this.btnResearch7Upgrade.Location = new System.Drawing.Point(292, 247);
             this.btnResearch7Upgrade.Name = "btnResearch7Upgrade";
             this.btnResearch7Upgrade.Size = new System.Drawing.Size(75, 49);
             this.btnResearch7Upgrade.TabIndex = 15;
@@ -201,7 +202,7 @@ namespace Quantum_World
             // 
             // btnResearch8Upgrade
             // 
-            this.btnResearch8Upgrade.Location = new System.Drawing.Point(405, 266);
+            this.btnResearch8Upgrade.Location = new System.Drawing.Point(403, 247);
             this.btnResearch8Upgrade.Name = "btnResearch8Upgrade";
             this.btnResearch8Upgrade.Size = new System.Drawing.Size(75, 49);
             this.btnResearch8Upgrade.TabIndex = 16;

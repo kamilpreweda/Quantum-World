@@ -49,5 +49,10 @@ namespace Quantum_World
         {
             btnResearch8Upgrade.Text = "Research 8 Upgraded";
         }
+
+        private void lblResearch_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

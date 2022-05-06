@@ -21,5 +21,22 @@ namespace Quantum_World
         {
 
         }
+
+        private void BtnShip1_Click(object sender, EventArgs e)
+        {
+            btnShip1.Text = "Ship 1 completed";
+        }
+        private void BtnShip2_Click(object sender, EventArgs e)
+        {
+            btnShip2.Text = "Ship 2 completed";
+        }
+        private void BtnShip3_Click(object sender, EventArgs e)
+        {
+            btnShip3.Text = "Ship 3 completed";
+        }
+        private void BtnShip4_Click(object sender, EventArgs e)
+        {
+            btnShip4.Text = "Ship 4 completed";
+        }
     }
 }
