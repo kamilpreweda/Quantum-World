@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
+
 
 namespace Quantum_World
 {
+
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -74,7 +79,11 @@ namespace Quantum_World
             map1.Hide();
             logout1.Hide();
         }
+        /* private void CarbonFiber()
+        {
+            lblCarbonFiber.Text = "test"; */
 
 
     }
 }
+

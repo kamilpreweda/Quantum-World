@@ -48,6 +48,7 @@
             this.lblHiggsBoson = new System.Windows.Forms.Label();
             this.lblSolarEnergy = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            
             // 
             // btnOverview
             // 
@@ -184,6 +185,8 @@
             this.lblCarbonFiber.Size = new System.Drawing.Size(73, 13);
             this.lblCarbonFiber.TabIndex = 15;
             this.lblCarbonFiber.Text = "Carbon Fiber: ";
+            // this.lblCarbonFiber.Click += new System.EventHandler(this.CarbonFiber);
+
             // 
             // lblQuantumGlass
             // 
@@ -240,6 +243,7 @@
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
+            
 
         }
 
@@ -264,6 +268,7 @@
         private System.Windows.Forms.Label lblQuantumGlass;
         private System.Windows.Forms.Label lblHiggsBoson;
         private System.Windows.Forms.Label lblSolarEnergy;
+        
     }
 }
 
