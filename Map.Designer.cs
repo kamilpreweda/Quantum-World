@@ -35,19 +35,24 @@ namespace Quantum_World
             // lblMap
             // 
             this.lblMap.AutoSize = true;
-            this.lblMap.Location = new System.Drawing.Point(346, 214);
+            this.lblMap.Location = new System.Drawing.Point(288, 196);
+            this.lblMap.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMap.Name = "lblMap";
-            this.lblMap.Size = new System.Drawing.Size(106, 13);
+            this.lblMap.Size = new System.Drawing.Size(147, 17);
             this.lblMap.TabIndex = 0;
             this.lblMap.Text = "You are viewing map";
             // 
             // Map
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
             this.Controls.Add(this.lblMap);
+            this.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.ForeColor = System.Drawing.Color.White;
+            this.Location = new System.Drawing.Point(148, 36);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Map";
-            this.Size = new System.Drawing.Size(810, 483);
+            this.Size = new System.Drawing.Size(760, 440);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -35,19 +35,25 @@ namespace Quantum_World
             // lblResources
             // 
             this.lblResources.AutoSize = true;
-            this.lblResources.Location = new System.Drawing.Point(208, 168);
+            this.lblResources.Location = new System.Drawing.Point(307, 194);
+            this.lblResources.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblResources.Name = "lblResources";
-            this.lblResources.Size = new System.Drawing.Size(109, 13);
+            this.lblResources.Size = new System.Drawing.Size(139, 17);
             this.lblResources.TabIndex = 0;
             this.lblResources.Text = "You are in Resources";
             // 
             // Resources
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
             this.Controls.Add(this.lblResources);
+            this.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.ForeColor = System.Drawing.Color.White;
+            this.Location = new System.Drawing.Point(148, 36);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Resources";
-            this.Size = new System.Drawing.Size(567, 410);
+            this.Size = new System.Drawing.Size(760, 440);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -35,19 +35,24 @@ namespace Quantum_World
             // lblLogout
             // 
             this.lblLogout.AutoSize = true;
-            this.lblLogout.Location = new System.Drawing.Point(277, 198);
+            this.lblLogout.Location = new System.Drawing.Point(282, 189);
+            this.lblLogout.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLogout.Name = "lblLogout";
-            this.lblLogout.Size = new System.Drawing.Size(92, 13);
+            this.lblLogout.Size = new System.Drawing.Size(122, 17);
             this.lblLogout.TabIndex = 0;
             this.lblLogout.Text = "You Are in Logout";
             // 
             // Logout
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
             this.Controls.Add(this.lblLogout);
+            this.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.ForeColor = System.Drawing.Color.White;
+            this.Location = new System.Drawing.Point(148, 36);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Logout";
-            this.Size = new System.Drawing.Size(653, 419);
+            this.Size = new System.Drawing.Size(760, 440);
             this.ResumeLayout(false);
             this.PerformLayout();
 
