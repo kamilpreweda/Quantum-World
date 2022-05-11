@@ -35,7 +35,7 @@ namespace Quantum_World
             // lblLogout
             // 
             this.lblLogout.AutoSize = true;
-            this.lblLogout.Location = new System.Drawing.Point(252, 172);
+            this.lblLogout.Location = new System.Drawing.Point(277, 198);
             this.lblLogout.Name = "lblLogout";
             this.lblLogout.Size = new System.Drawing.Size(92, 13);
             this.lblLogout.TabIndex = 0;

@@ -47,7 +47,7 @@ namespace Quantum_World
             // lblBuildings
             // 
             this.lblBuildings.AutoSize = true;
-            this.lblBuildings.Location = new System.Drawing.Point(282, 242);
+            this.lblBuildings.Location = new System.Drawing.Point(291, 243);
             this.lblBuildings.Name = "lblBuildings";
             this.lblBuildings.Size = new System.Drawing.Size(99, 13);
             this.lblBuildings.TabIndex = 0;
@@ -56,7 +56,7 @@ namespace Quantum_World
             // lblBuilding1
             // 
             this.lblBuilding1.AutoSize = true;
-            this.lblBuilding1.Location = new System.Drawing.Point(214, 143);
+            this.lblBuilding1.Location = new System.Drawing.Point(223, 144);
             this.lblBuilding1.Name = "lblBuilding1";
             this.lblBuilding1.Size = new System.Drawing.Size(60, 13);
             this.lblBuilding1.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace Quantum_World
             // lblBuilding2
             // 
             this.lblBuilding2.AutoSize = true;
-            this.lblBuilding2.Location = new System.Drawing.Point(467, 152);
+            this.lblBuilding2.Location = new System.Drawing.Point(476, 153);
             this.lblBuilding2.Name = "lblBuilding2";
             this.lblBuilding2.Size = new System.Drawing.Size(60, 13);
             this.lblBuilding2.TabIndex = 2;
@@ -74,7 +74,7 @@ namespace Quantum_World
             // lblBuilding3
             // 
             this.lblBuilding3.AutoSize = true;
-            this.lblBuilding3.Location = new System.Drawing.Point(226, 316);
+            this.lblBuilding3.Location = new System.Drawing.Point(235, 317);
             this.lblBuilding3.Name = "lblBuilding3";
             this.lblBuilding3.Size = new System.Drawing.Size(60, 13);
             this.lblBuilding3.TabIndex = 3;
@@ -83,7 +83,7 @@ namespace Quantum_World
             // lblBuilding4
             // 
             this.lblBuilding4.AutoSize = true;
-            this.lblBuilding4.Location = new System.Drawing.Point(470, 315);
+            this.lblBuilding4.Location = new System.Drawing.Point(479, 316);
             this.lblBuilding4.Name = "lblBuilding4";
             this.lblBuilding4.Size = new System.Drawing.Size(60, 13);
             this.lblBuilding4.TabIndex = 4;
@@ -91,7 +91,7 @@ namespace Quantum_World
             // 
             // btnBuilding1Upgrade
             // 
-            this.btnBuilding1Upgrade.Location = new System.Drawing.Point(198, 160);
+            this.btnBuilding1Upgrade.Location = new System.Drawing.Point(207, 161);
             this.btnBuilding1Upgrade.Name = "btnBuilding1Upgrade";
             this.btnBuilding1Upgrade.Size = new System.Drawing.Size(118, 23);
             this.btnBuilding1Upgrade.TabIndex = 5;
@@ -101,7 +101,7 @@ namespace Quantum_World
             // 
             // btnBuilding2Upgrade
             // 
-            this.btnBuilding2Upgrade.Location = new System.Drawing.Point(451, 169);
+            this.btnBuilding2Upgrade.Location = new System.Drawing.Point(460, 170);
             this.btnBuilding2Upgrade.Name = "btnBuilding2Upgrade";
             this.btnBuilding2Upgrade.Size = new System.Drawing.Size(122, 23);
             this.btnBuilding2Upgrade.TabIndex = 6;
@@ -111,7 +111,7 @@ namespace Quantum_World
             // 
             // btnBuilding4Upgrade
             // 
-            this.btnBuilding4Upgrade.Location = new System.Drawing.Point(431, 332);
+            this.btnBuilding4Upgrade.Location = new System.Drawing.Point(440, 333);
             this.btnBuilding4Upgrade.Name = "btnBuilding4Upgrade";
             this.btnBuilding4Upgrade.Size = new System.Drawing.Size(142, 23);
             this.btnBuilding4Upgrade.TabIndex = 7;
@@ -121,7 +121,7 @@ namespace Quantum_World
             // 
             // btnBuilding3Upgrade
             // 
-            this.btnBuilding3Upgrade.Location = new System.Drawing.Point(211, 332);
+            this.btnBuilding3Upgrade.Location = new System.Drawing.Point(220, 333);
             this.btnBuilding3Upgrade.Name = "btnBuilding3Upgrade";
             this.btnBuilding3Upgrade.Size = new System.Drawing.Size(122, 23);
             this.btnBuilding3Upgrade.TabIndex = 8;
@@ -132,7 +132,7 @@ namespace Quantum_World
             // lblBuilding1Cost
             // 
             this.lblBuilding1Cost.AutoSize = true;
-            this.lblBuilding1Cost.Location = new System.Drawing.Point(229, 127);
+            this.lblBuilding1Cost.Location = new System.Drawing.Point(238, 128);
             this.lblBuilding1Cost.Name = "lblBuilding1Cost";
             this.lblBuilding1Cost.Size = new System.Drawing.Size(81, 13);
             this.lblBuilding1Cost.TabIndex = 9;
@@ -141,7 +141,7 @@ namespace Quantum_World
             // lblBuilding2Cost
             // 
             this.lblBuilding2Cost.AutoSize = true;
-            this.lblBuilding2Cost.Location = new System.Drawing.Point(492, 136);
+            this.lblBuilding2Cost.Location = new System.Drawing.Point(501, 137);
             this.lblBuilding2Cost.Name = "lblBuilding2Cost";
             this.lblBuilding2Cost.Size = new System.Drawing.Size(81, 13);
             this.lblBuilding2Cost.TabIndex = 10;
@@ -150,7 +150,7 @@ namespace Quantum_World
             // lblBuilding4Cost
             // 
             this.lblBuilding4Cost.AutoSize = true;
-            this.lblBuilding4Cost.Location = new System.Drawing.Point(495, 299);
+            this.lblBuilding4Cost.Location = new System.Drawing.Point(504, 300);
             this.lblBuilding4Cost.Name = "lblBuilding4Cost";
             this.lblBuilding4Cost.Size = new System.Drawing.Size(81, 13);
             this.lblBuilding4Cost.TabIndex = 11;
@@ -159,7 +159,7 @@ namespace Quantum_World
             // lblBuilding3Cost
             // 
             this.lblBuilding3Cost.AutoSize = true;
-            this.lblBuilding3Cost.Location = new System.Drawing.Point(228, 298);
+            this.lblBuilding3Cost.Location = new System.Drawing.Point(237, 299);
             this.lblBuilding3Cost.Name = "lblBuilding3Cost";
             this.lblBuilding3Cost.Size = new System.Drawing.Size(81, 13);
             this.lblBuilding3Cost.TabIndex = 12;
