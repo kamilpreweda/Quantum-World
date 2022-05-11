@@ -36,7 +36,9 @@ namespace Quantum_World
             btnBuilding4Upgrade.Text = "Building 4 upgraded";
         }
 
+        private void Buildings_Load(object sender, EventArgs e)
+        {
 
-
+        }
     }
 }

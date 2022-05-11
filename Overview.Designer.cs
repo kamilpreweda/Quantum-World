@@ -35,7 +35,7 @@ namespace Quantum_World
             // lblOverview
             // 
             this.lblOverview.AutoSize = true;
-            this.lblOverview.Location = new System.Drawing.Point(157, 106);
+            this.lblOverview.Location = new System.Drawing.Point(13, 16);
             this.lblOverview.Name = "lblOverview";
             this.lblOverview.Size = new System.Drawing.Size(101, 13);
             this.lblOverview.TabIndex = 0;
@@ -45,9 +45,10 @@ namespace Quantum_World
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
             this.Controls.Add(this.lblOverview);
             this.Name = "Overview";
-            this.Size = new System.Drawing.Size(434, 325);
+            this.Size = new System.Drawing.Size(831, 529);
             this.ResumeLayout(false);
             this.PerformLayout();
 
