@@ -71,7 +71,7 @@
             this.lblHelloWorld.AutoSize = true;
             this.lblHelloWorld.Location = new System.Drawing.Point(353, 76);
             this.lblHelloWorld.Name = "lblHelloWorld";
-            this.lblHelloWorld.Size = new System.Drawing.Size(0, 17);
+            this.lblHelloWorld.Size = new System.Drawing.Size(0, 16);
             this.lblHelloWorld.TabIndex = 1;
             // 
             // btnBuildings
@@ -167,90 +167,93 @@
             // 
             // logout1
             // 
-            this.logout1.Location = new System.Drawing.Point(170, 12);
+            this.logout1.Location = new System.Drawing.Point(207, 76);
             this.logout1.Name = "logout1";
-            this.logout1.Size = new System.Drawing.Size(653, 419);
+            this.logout1.Size = new System.Drawing.Size(1109, 632);
             this.logout1.TabIndex = 10;
             // 
             // map1
             // 
-            this.map1.Location = new System.Drawing.Point(161, 5);
+            this.map1.Location = new System.Drawing.Point(191, 76);
             this.map1.Name = "map1";
-            this.map1.Size = new System.Drawing.Size(662, 385);
+            this.map1.Size = new System.Drawing.Size(1125, 595);
             this.map1.TabIndex = 9;
             // 
             // dock1
             // 
-            this.dock1.Location = new System.Drawing.Point(248, 5);
+            this.dock1.Location = new System.Drawing.Point(191, 86);
             this.dock1.Name = "dock1";
-            this.dock1.Size = new System.Drawing.Size(445, 321);
+            this.dock1.Size = new System.Drawing.Size(1178, 610);
             this.dock1.TabIndex = 8;
             // 
             // overview1
             // 
-            this.overview1.Location = new System.Drawing.Point(243, 66);
+            this.overview1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
+            this.overview1.Location = new System.Drawing.Point(207, 76);
             this.overview1.Name = "overview1";
-            this.overview1.Size = new System.Drawing.Size(434, 325);
+            this.overview1.Size = new System.Drawing.Size(857, 572);
             this.overview1.TabIndex = 11;
             // 
             // buildings1
             // 
-            this.buildings1.Location = new System.Drawing.Point(248, 26);
+            this.buildings1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
+            this.buildings1.Location = new System.Drawing.Point(191, 76);
             this.buildings1.Name = "buildings1";
-            this.buildings1.Size = new System.Drawing.Size(502, 364);
+            this.buildings1.Size = new System.Drawing.Size(1059, 537);
             this.buildings1.TabIndex = 12;
             // 
             // research1
             // 
-            this.research1.Location = new System.Drawing.Point(161, 26);
+            this.research1.Location = new System.Drawing.Point(224, 76);
             this.research1.Name = "research1";
-            this.research1.Size = new System.Drawing.Size(840, 562);
+            this.research1.Size = new System.Drawing.Size(880, 562);
             this.research1.TabIndex = 13;
             // 
             // resources1
             // 
-            this.resources1.Location = new System.Drawing.Point(170, 66);
+            this.resources1.Location = new System.Drawing.Point(207, 86);
             this.resources1.Name = "resources1";
-            this.resources1.Size = new System.Drawing.Size(831, 529);
+            this.resources1.Size = new System.Drawing.Size(1227, 622);
             this.resources1.TabIndex = 14;
+            this.resources1.Load += new System.EventHandler(this.resources1_Load);
             // 
             // lblCarbonFiber
             // 
             this.lblCarbonFiber.AutoSize = true;
-            this.lblCarbonFiber.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblCarbonFiber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblCarbonFiber.Location = new System.Drawing.Point(187, 5);
             this.lblCarbonFiber.Name = "lblCarbonFiber";
-            this.lblCarbonFiber.Size = new System.Drawing.Size(128, 21);
+            this.lblCarbonFiber.Size = new System.Drawing.Size(118, 20);
             this.lblCarbonFiber.TabIndex = 15;
             this.lblCarbonFiber.Text = "Carbon Fiber: 0";
             // 
             // lblQuantumGlass
             // 
             this.lblQuantumGlass.AutoSize = true;
-            this.lblQuantumGlass.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblQuantumGlass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblQuantumGlass.Location = new System.Drawing.Point(375, 5);
             this.lblQuantumGlass.Name = "lblQuantumGlass";
-            this.lblQuantumGlass.Size = new System.Drawing.Size(148, 21);
+            this.lblQuantumGlass.Size = new System.Drawing.Size(137, 20);
             this.lblQuantumGlass.TabIndex = 16;
             this.lblQuantumGlass.Text = "Quantum Glass: 0";
             // 
             // lblHiggsBoson
             // 
             this.lblHiggsBoson.AutoSize = true;
-            this.lblHiggsBoson.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblHiggsBoson.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblHiggsBoson.Location = new System.Drawing.Point(600, 5);
             this.lblHiggsBoson.Name = "lblHiggsBoson";
-            this.lblHiggsBoson.Size = new System.Drawing.Size(118, 21);
+            this.lblHiggsBoson.Size = new System.Drawing.Size(117, 20);
             this.lblHiggsBoson.TabIndex = 17;
             this.lblHiggsBoson.Text = "Higgs Boson: 0";
             // 
             // lblSolarEnergy
             // 
             this.lblSolarEnergy.AutoSize = true;
-            this.lblSolarEnergy.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblSolarEnergy.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblSolarEnergy.Location = new System.Drawing.Point(791, 5);
             this.lblSolarEnergy.Name = "lblSolarEnergy";
-            this.lblSolarEnergy.Size = new System.Drawing.Size(121, 21);
+            this.lblSolarEnergy.Size = new System.Drawing.Size(117, 20);
             this.lblSolarEnergy.TabIndex = 18;
             this.lblSolarEnergy.Text = "Solar Energy: 0";
             // 
@@ -258,7 +261,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(1063, 652);
+            this.ClientSize = new System.Drawing.Size(1465, 759);
             this.Controls.Add(this.lblSolarEnergy);
             this.Controls.Add(this.lblHiggsBoson);
             this.Controls.Add(this.lblQuantumGlass);
@@ -278,12 +281,13 @@
             this.Controls.Add(this.btnBuildings);
             this.Controls.Add(this.lblHelloWorld);
             this.Controls.Add(this.btnOverview);
-            this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

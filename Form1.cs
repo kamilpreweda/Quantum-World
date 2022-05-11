@@ -79,9 +79,19 @@ namespace Quantum_World
             map1.Hide();
             logout1.Hide();
         }
-        /* private void CarbonFiber()
+
+        private void resources1_Load(object sender, EventArgs e)
         {
-            lblCarbonFiber.Text = "test"; */
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        /* private void CarbonFiber()
+{
+lblCarbonFiber.Text = "test"; */
 
 
     }
