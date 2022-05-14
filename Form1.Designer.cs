@@ -37,17 +37,17 @@
             this.btnDock = new System.Windows.Forms.Button();
             this.btnMap = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
-            this.logout1 = new Quantum_World.Logout();
-            this.map1 = new Quantum_World.Map();
-            this.dock1 = new Quantum_World.Dock();
-            this.overview1 = new Quantum_World.Overview();
-            this.buildings1 = new Quantum_World.Buildings();
-            this.research1 = new Quantum_World.Research();
-            this.resources1 = new Quantum_World.Resources();
             this.lblCarbonFiber = new System.Windows.Forms.Label();
             this.lblQuantumGlass = new System.Windows.Forms.Label();
             this.lblHiggsBoson = new System.Windows.Forms.Label();
             this.lblSolarEnergy = new System.Windows.Forms.Label();
+            this.resources1 = new Quantum_World.Resources();
+            this.research1 = new Quantum_World.Research();
+            this.buildings1 = new Quantum_World.Buildings();
+            this.overview1 = new Quantum_World.Overview();
+            this.logout1 = new Quantum_World.Logout();
+            this.map1 = new Quantum_World.Map();
+            this.dock1 = new Quantum_World.Dock();
             this.SuspendLayout();
             // 
             // btnOverview
@@ -173,65 +173,6 @@
             this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
-            // logout1
-            // 
-            this.logout1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.logout1.Location = new System.Drawing.Point(148, 36);
-            this.logout1.Name = "logout1";
-            this.logout1.Size = new System.Drawing.Size(760, 440);
-            this.logout1.TabIndex = 10;
-            // 
-            // map1
-            // 
-            this.map1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.map1.Location = new System.Drawing.Point(148, 36);
-            this.map1.Name = "map1";
-            this.map1.Size = new System.Drawing.Size(760, 440);
-            this.map1.TabIndex = 9;
-            // 
-            // dock1
-            // 
-            this.dock1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.dock1.Location = new System.Drawing.Point(148, 36);
-            this.dock1.Name = "dock1";
-            this.dock1.Size = new System.Drawing.Size(760, 440);
-            this.dock1.TabIndex = 8;
-            // 
-            // overview1
-            // 
-            this.overview1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
-            this.overview1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.overview1.Location = new System.Drawing.Point(148, 36);
-            this.overview1.Name = "overview1";
-            this.overview1.Size = new System.Drawing.Size(760, 440);
-            this.overview1.TabIndex = 11;
-            // 
-            // buildings1
-            // 
-            this.buildings1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
-            this.buildings1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buildings1.Location = new System.Drawing.Point(148, 36);
-            this.buildings1.Name = "buildings1";
-            this.buildings1.Size = new System.Drawing.Size(760, 440);
-            this.buildings1.TabIndex = 12;
-            // 
-            // research1
-            // 
-            this.research1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.research1.Location = new System.Drawing.Point(148, 36);
-            this.research1.Name = "research1";
-            this.research1.Size = new System.Drawing.Size(760, 440);
-            this.research1.TabIndex = 13;
-            // 
-            // resources1
-            // 
-            this.resources1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.resources1.Location = new System.Drawing.Point(148, 36);
-            this.resources1.Name = "resources1";
-            this.resources1.Size = new System.Drawing.Size(760, 440);
-            this.resources1.TabIndex = 14;
-            this.resources1.Load += new System.EventHandler(this.resources1_Load);
-            // 
             // lblCarbonFiber
             // 
             this.lblCarbonFiber.AutoSize = true;
@@ -271,6 +212,83 @@
             this.lblSolarEnergy.Size = new System.Drawing.Size(100, 17);
             this.lblSolarEnergy.TabIndex = 18;
             this.lblSolarEnergy.Text = "Solar Energy: 0";
+            // 
+            // resources1
+            // 
+            this.resources1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
+            this.resources1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.resources1.ForeColor = System.Drawing.Color.White;
+            this.resources1.Location = new System.Drawing.Point(148, 36);
+            this.resources1.Margin = new System.Windows.Forms.Padding(4);
+            this.resources1.Name = "resources1";
+            this.resources1.Size = new System.Drawing.Size(760, 440);
+            this.resources1.TabIndex = 14;
+            this.resources1.Load += new System.EventHandler(this.resources1_Load);
+            // 
+            // research1
+            // 
+            this.research1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.research1.Location = new System.Drawing.Point(148, 36);
+            this.research1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.research1.Name = "research1";
+            this.research1.Size = new System.Drawing.Size(760, 440);
+            this.research1.TabIndex = 13;
+            // 
+            // buildings1
+            // 
+            this.buildings1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
+            this.buildings1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buildings1.ForeColor = System.Drawing.Color.White;
+            this.buildings1.Location = new System.Drawing.Point(148, 36);
+            this.buildings1.Margin = new System.Windows.Forms.Padding(4);
+            this.buildings1.Name = "buildings1";
+            this.buildings1.Size = new System.Drawing.Size(760, 440);
+            this.buildings1.TabIndex = 12;
+            // 
+            // overview1
+            // 
+            this.overview1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
+            this.overview1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.overview1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.overview1.ForeColor = System.Drawing.Color.White;
+            this.overview1.Location = new System.Drawing.Point(148, 36);
+            this.overview1.Margin = new System.Windows.Forms.Padding(4);
+            this.overview1.Name = "overview1";
+            this.overview1.Size = new System.Drawing.Size(760, 440);
+            this.overview1.TabIndex = 11;
+            // 
+            // logout1
+            // 
+            this.logout1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
+            this.logout1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.logout1.ForeColor = System.Drawing.Color.White;
+            this.logout1.Location = new System.Drawing.Point(148, 36);
+            this.logout1.Margin = new System.Windows.Forms.Padding(4);
+            this.logout1.Name = "logout1";
+            this.logout1.Size = new System.Drawing.Size(760, 440);
+            this.logout1.TabIndex = 10;
+            // 
+            // map1
+            // 
+            this.map1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
+            this.map1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.map1.ForeColor = System.Drawing.Color.White;
+            this.map1.Location = new System.Drawing.Point(148, 36);
+            this.map1.Margin = new System.Windows.Forms.Padding(4);
+            this.map1.Name = "map1";
+            this.map1.Size = new System.Drawing.Size(760, 440);
+            this.map1.TabIndex = 9;
+            // 
+            // dock1
+            // 
+            this.dock1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
+            this.dock1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.dock1.ForeColor = System.Drawing.Color.White;
+            this.dock1.Location = new System.Drawing.Point(148, 36);
+            this.dock1.Margin = new System.Windows.Forms.Padding(4);
+            this.dock1.Name = "dock1";
+            this.dock1.Size = new System.Drawing.Size(760, 440);
+            this.dock1.TabIndex = 8;
             // 
             // Form1
             // 
@@ -329,7 +347,6 @@
         private System.Windows.Forms.Label lblQuantumGlass;
         private System.Windows.Forms.Label lblHiggsBoson;
         private System.Windows.Forms.Label lblSolarEnergy;
-        
     }
 }
 

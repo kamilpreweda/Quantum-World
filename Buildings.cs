@@ -40,5 +40,10 @@ namespace Quantum_World
         {
 
         }
+
+        private void lblBuildings_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

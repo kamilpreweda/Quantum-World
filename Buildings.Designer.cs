@@ -42,22 +42,31 @@ namespace Quantum_World
             this.lblBuilding2Cost = new System.Windows.Forms.Label();
             this.lblBuilding4Cost = new System.Windows.Forms.Label();
             this.lblBuilding3Cost = new System.Windows.Forms.Label();
+            this.RobotFactoryBuildingPicture = new System.Windows.Forms.PictureBox();
+            this.HiggsBosonBuildingPicture = new System.Windows.Forms.PictureBox();
+            this.QuantumGlassBuildingPicture = new System.Windows.Forms.PictureBox();
+            this.carbonFiberBuildingPicture = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.RobotFactoryBuildingPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HiggsBosonBuildingPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.QuantumGlassBuildingPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.carbonFiberBuildingPicture)).BeginInit();
             this.SuspendLayout();
             // 
             // lblBuildings
             // 
             this.lblBuildings.AutoSize = true;
-            this.lblBuildings.Location = new System.Drawing.Point(228, 219);
+            this.lblBuildings.Location = new System.Drawing.Point(200, 235);
             this.lblBuildings.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuildings.Name = "lblBuildings";
             this.lblBuildings.Size = new System.Drawing.Size(133, 17);
             this.lblBuildings.TabIndex = 0;
             this.lblBuildings.Text = "You are in buildings";
+            this.lblBuildings.Click += new System.EventHandler(this.lblBuildings_Click);
             // 
             // lblBuilding1
             // 
             this.lblBuilding1.AutoSize = true;
-            this.lblBuilding1.Location = new System.Drawing.Point(137, 90);
+            this.lblBuilding1.Location = new System.Drawing.Point(49, 179);
             this.lblBuilding1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuilding1.Name = "lblBuilding1";
             this.lblBuilding1.Size = new System.Drawing.Size(80, 17);
@@ -67,7 +76,7 @@ namespace Quantum_World
             // lblBuilding2
             // 
             this.lblBuilding2.AutoSize = true;
-            this.lblBuilding2.Location = new System.Drawing.Point(474, 101);
+            this.lblBuilding2.Location = new System.Drawing.Point(400, 179);
             this.lblBuilding2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuilding2.Name = "lblBuilding2";
             this.lblBuilding2.Size = new System.Drawing.Size(80, 17);
@@ -77,7 +86,7 @@ namespace Quantum_World
             // lblBuilding3
             // 
             this.lblBuilding3.AutoSize = true;
-            this.lblBuilding3.Location = new System.Drawing.Point(153, 316);
+            this.lblBuilding3.Location = new System.Drawing.Point(49, 440);
             this.lblBuilding3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuilding3.Name = "lblBuilding3";
             this.lblBuilding3.Size = new System.Drawing.Size(80, 17);
@@ -87,7 +96,7 @@ namespace Quantum_World
             // lblBuilding4
             // 
             this.lblBuilding4.AutoSize = true;
-            this.lblBuilding4.Location = new System.Drawing.Point(478, 315);
+            this.lblBuilding4.Location = new System.Drawing.Point(400, 440);
             this.lblBuilding4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuilding4.Name = "lblBuilding4";
             this.lblBuilding4.Size = new System.Drawing.Size(80, 17);
@@ -96,8 +105,8 @@ namespace Quantum_World
             // 
             // btnBuilding1Upgrade
             // 
-            this.btnBuilding1Upgrade.Location = new System.Drawing.Point(116, 112);
-            this.btnBuilding1Upgrade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuilding1Upgrade.Location = new System.Drawing.Point(6, 200);
+            this.btnBuilding1Upgrade.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuilding1Upgrade.Name = "btnBuilding1Upgrade";
             this.btnBuilding1Upgrade.Size = new System.Drawing.Size(157, 30);
             this.btnBuilding1Upgrade.TabIndex = 5;
@@ -107,8 +116,8 @@ namespace Quantum_World
             // 
             // btnBuilding2Upgrade
             // 
-            this.btnBuilding2Upgrade.Location = new System.Drawing.Point(453, 124);
-            this.btnBuilding2Upgrade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuilding2Upgrade.Location = new System.Drawing.Point(362, 200);
+            this.btnBuilding2Upgrade.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuilding2Upgrade.Name = "btnBuilding2Upgrade";
             this.btnBuilding2Upgrade.Size = new System.Drawing.Size(163, 30);
             this.btnBuilding2Upgrade.TabIndex = 6;
@@ -118,8 +127,8 @@ namespace Quantum_World
             // 
             // btnBuilding4Upgrade
             // 
-            this.btnBuilding4Upgrade.Location = new System.Drawing.Point(426, 337);
-            this.btnBuilding4Upgrade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuilding4Upgrade.Location = new System.Drawing.Point(362, 461);
+            this.btnBuilding4Upgrade.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuilding4Upgrade.Name = "btnBuilding4Upgrade";
             this.btnBuilding4Upgrade.Size = new System.Drawing.Size(189, 30);
             this.btnBuilding4Upgrade.TabIndex = 7;
@@ -129,8 +138,8 @@ namespace Quantum_World
             // 
             // btnBuilding3Upgrade
             // 
-            this.btnBuilding3Upgrade.Location = new System.Drawing.Point(133, 337);
-            this.btnBuilding3Upgrade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuilding3Upgrade.Location = new System.Drawing.Point(6, 461);
+            this.btnBuilding3Upgrade.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuilding3Upgrade.Name = "btnBuilding3Upgrade";
             this.btnBuilding3Upgrade.Size = new System.Drawing.Size(163, 30);
             this.btnBuilding3Upgrade.TabIndex = 8;
@@ -141,7 +150,7 @@ namespace Quantum_World
             // lblBuilding1Cost
             // 
             this.lblBuilding1Cost.AutoSize = true;
-            this.lblBuilding1Cost.Location = new System.Drawing.Point(157, 69);
+            this.lblBuilding1Cost.Location = new System.Drawing.Point(33, 162);
             this.lblBuilding1Cost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuilding1Cost.Name = "lblBuilding1Cost";
             this.lblBuilding1Cost.Size = new System.Drawing.Size(110, 17);
@@ -151,7 +160,7 @@ namespace Quantum_World
             // lblBuilding2Cost
             // 
             this.lblBuilding2Cost.AutoSize = true;
-            this.lblBuilding2Cost.Location = new System.Drawing.Point(508, 80);
+            this.lblBuilding2Cost.Location = new System.Drawing.Point(385, 162);
             this.lblBuilding2Cost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuilding2Cost.Name = "lblBuilding2Cost";
             this.lblBuilding2Cost.Size = new System.Drawing.Size(110, 17);
@@ -161,7 +170,7 @@ namespace Quantum_World
             // lblBuilding4Cost
             // 
             this.lblBuilding4Cost.AutoSize = true;
-            this.lblBuilding4Cost.Location = new System.Drawing.Point(512, 294);
+            this.lblBuilding4Cost.Location = new System.Drawing.Point(385, 418);
             this.lblBuilding4Cost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuilding4Cost.Name = "lblBuilding4Cost";
             this.lblBuilding4Cost.Size = new System.Drawing.Size(110, 17);
@@ -171,17 +180,61 @@ namespace Quantum_World
             // lblBuilding3Cost
             // 
             this.lblBuilding3Cost.AutoSize = true;
-            this.lblBuilding3Cost.Location = new System.Drawing.Point(156, 292);
+            this.lblBuilding3Cost.Location = new System.Drawing.Point(33, 418);
             this.lblBuilding3Cost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBuilding3Cost.Name = "lblBuilding3Cost";
             this.lblBuilding3Cost.Size = new System.Drawing.Size(110, 17);
             this.lblBuilding3Cost.TabIndex = 12;
             this.lblBuilding3Cost.Text = "lblBuilding3Cost";
             // 
+            // RobotFactoryBuildingPicture
+            // 
+            this.RobotFactoryBuildingPicture.Image = global::Quantum_World.Properties.Resources.RobotFactoryBuilding;
+            this.RobotFactoryBuildingPicture.Location = new System.Drawing.Point(362, 257);
+            this.RobotFactoryBuildingPicture.Name = "RobotFactoryBuildingPicture";
+            this.RobotFactoryBuildingPicture.Size = new System.Drawing.Size(150, 150);
+            this.RobotFactoryBuildingPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.RobotFactoryBuildingPicture.TabIndex = 16;
+            this.RobotFactoryBuildingPicture.TabStop = false;
+            // 
+            // HiggsBosonBuildingPicture
+            // 
+            this.HiggsBosonBuildingPicture.Image = global::Quantum_World.Properties.Resources.HiggsBosonBuilding;
+            this.HiggsBosonBuildingPicture.Location = new System.Drawing.Point(13, 257);
+            this.HiggsBosonBuildingPicture.Name = "HiggsBosonBuildingPicture";
+            this.HiggsBosonBuildingPicture.Size = new System.Drawing.Size(150, 150);
+            this.HiggsBosonBuildingPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.HiggsBosonBuildingPicture.TabIndex = 15;
+            this.HiggsBosonBuildingPicture.TabStop = false;
+            // 
+            // QuantumGlassBuildingPicture
+            // 
+            this.QuantumGlassBuildingPicture.Image = global::Quantum_World.Properties.Resources.QuantumGlassBuilding;
+            this.QuantumGlassBuildingPicture.Location = new System.Drawing.Point(362, 3);
+            this.QuantumGlassBuildingPicture.Name = "QuantumGlassBuildingPicture";
+            this.QuantumGlassBuildingPicture.Size = new System.Drawing.Size(150, 150);
+            this.QuantumGlassBuildingPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.QuantumGlassBuildingPicture.TabIndex = 14;
+            this.QuantumGlassBuildingPicture.TabStop = false;
+            // 
+            // carbonFiberBuildingPicture
+            // 
+            this.carbonFiberBuildingPicture.Image = global::Quantum_World.Properties.Resources.CarbonFiberBuilding;
+            this.carbonFiberBuildingPicture.Location = new System.Drawing.Point(13, 3);
+            this.carbonFiberBuildingPicture.Name = "carbonFiberBuildingPicture";
+            this.carbonFiberBuildingPicture.Size = new System.Drawing.Size(150, 150);
+            this.carbonFiberBuildingPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.carbonFiberBuildingPicture.TabIndex = 13;
+            this.carbonFiberBuildingPicture.TabStop = false;
+            // 
             // Buildings
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
+            this.Controls.Add(this.RobotFactoryBuildingPicture);
+            this.Controls.Add(this.HiggsBosonBuildingPicture);
+            this.Controls.Add(this.QuantumGlassBuildingPicture);
+            this.Controls.Add(this.carbonFiberBuildingPicture);
             this.Controls.Add(this.lblBuilding3Cost);
             this.Controls.Add(this.lblBuilding4Cost);
             this.Controls.Add(this.lblBuilding2Cost);
@@ -198,10 +251,14 @@ namespace Quantum_World
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.ForeColor = System.Drawing.Color.White;
             this.Location = new System.Drawing.Point(148, 36);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Buildings";
-            this.Size = new System.Drawing.Size(760, 440);
+            this.Size = new System.Drawing.Size(556, 496);
             this.Load += new System.EventHandler(this.Buildings_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.RobotFactoryBuildingPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HiggsBosonBuildingPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.QuantumGlassBuildingPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.carbonFiberBuildingPicture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,8 +279,9 @@ namespace Quantum_World
         private System.Windows.Forms.Label lblBuilding2Cost;
         private System.Windows.Forms.Label lblBuilding4Cost;
         private System.Windows.Forms.Label lblBuilding3Cost;
-
-       
-
+        private System.Windows.Forms.PictureBox carbonFiberBuildingPicture;
+        private System.Windows.Forms.PictureBox QuantumGlassBuildingPicture;
+        private System.Windows.Forms.PictureBox HiggsBosonBuildingPicture;
+        private System.Windows.Forms.PictureBox RobotFactoryBuildingPicture;
     }
 }
